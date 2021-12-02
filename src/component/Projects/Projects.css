@@ -3,12 +3,6 @@
     width: 500px;
 } */
 
-.animation{
-    transition: width 2s, height 2s, transform 2s;
-}
-.animation:hover{
-    transform: rotate(360deg);
-}
 .card-display{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import profile from '../../image/Sayem new pic linkdin.png';
+import profile from '../image/Sayem new pic linkdin.png';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 
