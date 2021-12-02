@@ -1,18 +1,24 @@
+import React from 'react';
 
-import {React} from 'react';
-import 'animate.css';
 const Contact = () => {
     return (
-        <div className="py-4 text-2xl  ">
-            <h1 id="contact" className="animate__lightSpeedInLeft">contact me</h1>
+        <div>
+            <h1 className="text-center text-4xl py-4">Send me a Messege</h1>
+
             <form action="https://formsubmit.co/sayemmetro420@gmail.com" method="POST">
-     <div className="grid justify-center">
-     <input className="p-2 rounded my-2 " type="text" name="name" required placeholder="Name" />
-     <input className="p-2 rounded my-2" type="email" name="email" required placeholder="Email"/>
-     <textarea className="p-2 rounded my-2" type="text" name="message" required placeholder="Messege"/>
-     </div>
-     <button className="p-2 rounded bg-yellow-600" type="submit">Send</button>
-</form>
+                <div className="grid ps-4 justify-center">
+                <h4>Name:</h4>
+                <input className="p-2 rounded my-2 bg-blue-300 text-black" type="text" name="name" required  />
+                <h4>Email:</h4>
+                <input className="p-2 rounded my-2 bg-blue-300 text-black" type="email" name="email" required />
+                <h4>Message</h4>
+                <textarea className="p-2 rounded my-2 bg-blue-300 text-black" 
+                        // @ts-ignore
+                type ="text" name="message" required />
+                <button className="p-2 rounded bg-yellow-600 mx-6" type="submit">Send</button>
+                </div>
+                
+             </form>
         </div>
     );
 };

@@ -1,4 +1,29 @@
-img{
-    height: 300px;
+/* .card img{
+    height:400px;
     width: 500px;
+} */
+
+.animation{
+    transition: width 2s, height 2s, transform 2s;
 }
+.animation:hover{
+    transform: rotate(360deg);
+}
+.card-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-display {
+        background-color: lightblue;
+        display: inline-block;
+        grid-template-columns:repeat(3,1fr);
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        padding: 50px;
+    }
+  }
