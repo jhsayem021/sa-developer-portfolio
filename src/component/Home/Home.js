@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <div>
             <div className="lg:flex  justify-evenly items-center py-8">
-                <div className="sm:p-8 w-50">
+                <div className="pl-8 w-50">
                 
-                <h1 className="text-6xl  animate__bounceOut pb-2">Hi, I am JH Sayem</h1>
+                <h1 className="text-6xl  animate__bounceOut pb-2">Hi, <br/> I am JH Sayem</h1>
                 <h5 className="text-3xl pb-2 text-blue-700">Front-end Developer</h5>
                 <p className="pb-2">As a front-end web developer, I have aquired experience work with HTML, CSS(plain css, Bootstrap, tailwind), Javascript, React.js. On top of that, my web development skills allowed me to build up my web-programming abilities.</p>
             </div>
