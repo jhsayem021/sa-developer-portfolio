@@ -18,7 +18,7 @@ const Project = (props) => {
                     <p className="card-text">{description}</p>
                 </div>
                 <div className="card-body">
-                    <button onClick={handleClick} >View details</button>
+                    <button className="btn btn-primary pb-4"onClick={handleClick} >View details</button>
                 </div>
                 </div>
     );
