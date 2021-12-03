@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     const [projectd,setProjectd] = useState({})
     let history = useHistory();
     useEffect(()=>{
-        fetch(`http://localhost:5000/projects/${projectId}`)
+        fetch(`https://guarded-hollows-82527.herokuapp.com/projects/${projectId}`)
         .then(res=>res.json())
         .then(data=>setProjectd(data))
     },[])    
