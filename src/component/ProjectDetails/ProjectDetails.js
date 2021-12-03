@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import './ProjectDetails.css'
 const ProjectDetails = () => {
 
+    // @ts-ignore
     const  {projectId}  = useParams();
     console.log(projectId);
     const [projectd,setProjectd] = useState({})
@@ -18,6 +19,7 @@ const ProjectDetails = () => {
         history.push(`/projects`);
     }
 
+    // @ts-ignore
     const {image1, image2, image3, image4,title,features1,features2,features3} = projectd;
     return (
         <div className="flex justify-center py-4">
