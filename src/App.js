@@ -8,6 +8,7 @@ import Contact from './component/Contact/Contact';
 import Home from './component/Home/Home';
 import Navber from './component/Navber/Navber';
 import Projects from './component/Projects/Projects';
+import Blogs from './component/Blogs/Blogs';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path = "/contacts">
           <Contact></Contact>
+          </Route>
+          <Route exact path = "/blogs">
+          <Blogs></Blogs>
           </Route>
           <Route path = "*">
           <Contact></Contact>

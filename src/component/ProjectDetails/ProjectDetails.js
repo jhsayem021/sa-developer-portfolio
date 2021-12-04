@@ -20,7 +20,7 @@ const ProjectDetails = () => {
     }
 
     // @ts-ignore
-    const {image1, image2, image3, image4,title,features1,features2,features3} = projectd;
+    const {image1, image2, image3, image4,title,features1,features2,features3,link1,link2,link3} = projectd;
     return (
         <div className="flex justify-center py-4">
                 <div className="card m-4 bg-gray-400 w-50 ">
@@ -38,9 +38,13 @@ const ProjectDetails = () => {
                     <p className="card-text ">{features1}</p>
                     <p className="card-text ">{features2}</p>
                     <p className="card-text ">{features3}</p>
+                
                 </div>
-                <div className="card-body">
-                    <button onClick={handleClick} > view Projects</button>
+                <div className="card-body flex justify-between align-items">
+                    <button onClick={handleClick} className="btn btn-primary pb-4" > View Projects</button>
+                    <div className="source" > <a className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium mr-2" href={link1}>Live view</a>
+                    <a className="bg-gray-900 text-white mr-2 px-3 py-2 rounded-md text-sm font-medium" href={link2}>Client repo</a>
+                    <a className="bg-gray-900 text-white mr-2 px-3 py-2 rounded-md text-sm font-medium" href={link3}>Server repo</a> </div>
                 </div>
                 </div>
                 </div>

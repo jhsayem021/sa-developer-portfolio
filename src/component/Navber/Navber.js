@@ -19,6 +19,7 @@ const Navber = () => {
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/projects">Projects</Link> 
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/about">About me</Link> 
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/contacts">Contact me</Link> 
+                 <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/blogs">Blogs</Link> 
           </div>
         </div>
       </div>
@@ -34,6 +35,7 @@ const Navber = () => {
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/projects">Projects</Link> 
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/about">About me</Link> 
                  <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/contacts">Contact me</Link> 
+                 <Link className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" to="/blogs">Blogs</Link> 
     </div>
   </div>
 </nav>
